@@ -1,6 +1,6 @@
 local base = {
-  Normal = { fg = C.fg, bg = C.bg },
-  NormalNC = { fg = C.fg, bg = C.black },
+  Normal = { fg = C.fg, bg = C.none },
+  NormalNC = { fg = C.fg, bg = C.none },
   Comment = { fg = C.grey_2, bg = C.none },
   Constant = { fg = C.yellow, bg = C.none },
   String = { fg = C.green, bg = C.none },
